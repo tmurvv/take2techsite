@@ -1,0 +1,389 @@
+/*Big tablets to 1200px: 1023-1200px*/
+
+@media only screen and (max-width: 1200px) {
+
+    header {
+        background-size: 100% 400px;
+    }
+    .main-nav {
+        margin-right: 50px;
+    }
+    .main-nav li {
+
+        margin-left: 20px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+
+        font-size: 75%;
+        padding-bottom: 5px;
+        letter-spacing: 1px;
+    }
+
+
+
+    h1 {
+        font-size: 38px !important;
+    }
+
+    /* .hero-subtext {
+        margin-left: 13%;
+    }*/
+    .btn:link,
+    .btn:visited {
+
+
+        height: 250px;
+        width: 250px;
+        /*border: 1px solid #7f8fa6;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 7px;*/
+    }
+
+
+    .tiles {
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+    .tile1 {
+        font-size: 90%;
+        background-position: center 75px;
+        background-size: 200px;
+        margin-right: 20px;
+    }
+
+    .tile2 {
+        font-size: 90%;
+        background-position: center 75px;
+        background-size: 200px 160px;
+        margin-right: 20px;
+    }
+
+    .tile3 {
+        font-size: 90%;
+        background-position: center 75px;
+        background-size: 200px 160px;
+    }
+
+
+    #sampleBackendCode img {
+
+        margin-left: 30%;
+
+    }
+}
+
+
+/*Small tablets to big tablets: 768-1023px*/
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 550px;
+    }
+
+    h1 {
+        font-size: 36px !important;
+    }
+    .main-nav {
+        margin-right: 35px;
+    }
+    .main-nav li {
+
+        margin-left: 10px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+
+        font-size: 65%;
+        padding-bottom: 5px;
+    }
+
+    .btn:link,
+    .btn:visited {
+
+        height: 225px;
+        width: 185px;
+
+    }
+
+    .tiles {
+        margin-left: -10% !important;
+    }
+    .tile1 {
+        margin-right: 8%;
+    }
+
+    .tile2 {
+        margin-right: 8%;
+    }
+
+
+    .footer-nav li,
+    .social-links li {
+        font-size: 80%;
+        margin: 0 5px;
+    }
+
+    footer p {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .tiles {
+        margin-left: -12% !important;
+    }
+    .tile1 {
+        margin-right: 5%;
+    }
+
+    .tile2 {
+        margin-right: 5%;
+    }
+
+}
+
+/*Small phones to small tablets: 481-768px*/
+
+@media only screen and (max-width: 768px) {
+
+    /* .h1Format {
+        font-size: 38px;
+    }
+*/
+    .logo {
+        height: 45px;
+        margin: 5px;
+    }
+
+
+    .main-nav {}
+    .main-nav li {
+
+        font-size: 75%;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {}
+
+
+    .hero-text-box {
+        top: 15%;
+        margin-bottom: 18px;
+    }
+    .hero-subtext {
+        margin-left: 5%;
+    }
+
+    .btn:link,
+    .btn:visited {
+
+        margin-top: 60px;
+        width: 160px;
+    }
+
+    .tiles {
+        margin-left: -8% !important;
+        margin-top: 35px;
+    }
+
+    .tile1 {
+        font-size: 80%;
+        background-position: center 75px;
+        background-size: 200px;
+        margin-right: 5%;
+    }
+
+    .tile2 {
+        font-size: 80%;
+        background-position: center 75px;
+        background-size: 200px 160px;
+        margin-right: 5%;
+    }
+
+    .tile3 {
+        font-size: 90%;
+        background-position: center 75px;
+        background-size: 200px 160px;
+    }
+
+    #sampleBackendCode img {
+        height: 200px;
+        margin-left: 27.5%;
+        margin-top: -30px;
+    }
+
+    .section-about .row,
+    .section-about p {
+        margin: 0 3%;
+    }
+
+    .footer-nav li,
+    .social-links li {
+
+        font-size: 80%;
+    }
+
+    footer p {
+        margin-top: 35px;
+        font-size: 70%;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+    }
+
+    .social-links li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    .tiles {
+        margin-left: -15% !important;
+    }
+    .tile1 {
+        margin-right: 3%;
+    }
+
+    .tile2 {
+        margin-right: 3%;
+    }
+
+}
+
+/*Small < 580px*/
+
+@media only screen and (max-width: 580px) {
+    header {
+        background-size: 100% 300px;
+        height: 1250px;
+    }
+
+    .logo {
+        height: 50px
+    }
+
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 25px;
+
+    }
+
+    .main-nav li {
+
+        display: block;
+        font-size: 100%;
+
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+
+
+
+        font-size: 60%;
+
+        padding: 5px 10px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+
+
+    }
+
+    .mobile-navicon {
+        display: block;
+    }
+
+    .ion-close {
+        font-size: 60%;
+    }
+
+
+    .hero-text-box {
+        top: 20%;
+        margin-bottom: 20px;
+    }
+
+
+    h1 {
+        font-size: 22px !important;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    .hero-subtext {
+
+        font-size: 70%;
+        margin-left: -4%;
+    }
+
+    .btn {
+        display: block;
+        float: none;
+    }
+
+
+    .btn:link,
+    .btn:visited {
+        font-size: 100%;
+        padding: 5px;
+        display: block;
+        float: none;
+        margin: 40px 25% 0 25%;
+        width: 250px;
+        height: 300px;
+    }
+
+    .tiles {
+        display: block;
+        margin-left: -40% !important;
+        margin-top: 100px;
+    }
+
+    #sampleDevelopment img {
+
+        margin-left: 42%;
+
+    }
+
+     #sampleBackendCode img {
+
+        margin-left: 12.5%;
+
+    }
+
+
+    .footer-nav li {
+        display: block;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        margin: 5px;
+        font-size: 65%;
+    }
+
+
+
+    footer p {
+        margin-top: 80px;
+        font-size: 65%;
+    }
+}
